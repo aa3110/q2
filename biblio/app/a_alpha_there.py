@@ -1,0 +1,1 @@
+def alpha_there(s): return any(i.isalpha() for i in s)

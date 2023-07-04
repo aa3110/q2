@@ -1,0 +1,13 @@
+stock,signal,basis,par0,par1
+BMW,low,Close,140,
+BMW,high,Close,110,
+SIE,crossup,Close,"multibbh(df,'Close',5)",
+SIE,crossdown,Close,80,
+SIE,gain,Close,120,10.0
+SIE,loss,Close,200,10.0
+SIE,chan_in,Close,"multibbl(df,'Close',12)",60.0
+SIE,chan_in,Close,"multibbm(df,'Close',14)","multibbh(df,'Close',16)"
+SIE,chan_in,Close,50,80.0
+VOW,high,Close,160,
+VOW,crossup,Close,"multibbh(df,'Close',7)",
+VOW,crossup,Close,"multisma(df,'Close',9)",
